@@ -1,0 +1,89 @@
+:rtype: (dict, dict)
+        """
+        market_idls = self.market_proxy.functions.getMarkets().call()
+
+        # filter disabled markets
+        market_idls = [
+            market_id
+            for market_id in market_idls
+            if market_id not in self.disabled_markets
+        ]
+
+        market_idls = [market_idls[i:i + 10] for i in range(0, len(market_idls), 10)]
+        print("\n--------Getting all makrets-----------\n")
+        print(market_idls)
+        markets_by_id = {}
+        for market_ids in market_idls:
+
+            # fetch and store the metadata
+            market_metadata = multicall_erc7412(
+                self.snx, self.market_proxy, "metadata", market_ids
+            )
+
+
+
+
+
+            # fetch settlement strategies to get feed_ids
+            settlement_strategy_inputs = [(market_id, 0) for market_id in market_ids]
+            settlement_strategies = multicall_erc7412(
+                self.snx,
+                self.market_proxy,
+                "getSettlementStrategy",
+                settlement_strategy_inputs,
+            )
+
+            self.market_meta = {
+                market_id: {
+                    "name": market_metadata[ind][0],
+                    "symbol": market_metadata[ind][1],
+                    "feed_id": encode_hex(settlement_strategies[ind][4]),
+                }
+                for ind, market_id in enumerate(market_ids)
+            }
+
+
+            # update pyth price feed ids
+            self.snx.pyth.update_price_feed_ids(
+
+                {
+                    self.market_meta[market]["symbol"]: self.market_meta[market]["feed_id"]
+                    for market in self.market_meta
+
+
+
+                }
+            )
+
+            # fetch the market summaries
+            market_summaries = self.get_market_summaries(market_ids)
+            markets_by_id.update(
+                {summary["market_id"]: summary for summary in market_summaries}
+            ) 
+
+            # fetch funding parameters
+            funding_parameters = multicall_erc7412(
+                self.snx, self.market_proxy, "getFundingParameters", market_ids
+            )
+
+            # fetch fees
+            # fees = multicall_erc7412(
+            #     self.snx, self.market_proxy, "getOrderFees", market_ids
+            # )
+
+            # fetch max market
+            # max_market_values = multicall_erc7412(
+            #     self.snx, self.market_proxy, "getMaxMarketValue", market_ids
+            # )
+
+            # add them to markets by id
+            for ind, market_id in enumerate(market_ids):
+                markets_by_id[market_id].update(
+                    {
+                        "skew_scale": wei_to_ether(funding_parameters[ind][0]),
+                        "max_funding_velocity": wei_to_ether(funding_parameters[ind][1]),
+                        # "maker_fee": wei_to_ether(fees[ind][0]),
+                        # "taker_fee": wei_to_ether(fees[ind][1]),
+                        # "max_market_value": wei_to_ether(max_market_values[ind]),
+                    }
+                )

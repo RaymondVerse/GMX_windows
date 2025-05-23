@@ -1,0 +1,430 @@
+[
+    {
+        "Market Name":"BTC",
+        "Annualized Funding Rate":-103.8997029327
+    },
+    {
+        "Market Name":"ETH",
+        "Annualized Funding Rate":874.8678865953
+    },
+    {
+        "Market Name":"SNX",
+        "Annualized Funding Rate":1933.8760276441
+    },
+    {
+        "Market Name":"SOL",
+        "Annualized Funding Rate":1624.8398825707
+    },
+    {
+        "Market Name":"W",
+        "Annualized Funding Rate":3120.9781462659
+    },
+    {
+        "Market Name":"WIF",
+        "Annualized Funding Rate":2146.6820324584
+    },
+    {
+        "Market Name":"ARB",
+        "Annualized Funding Rate":3086.7003991088
+    },
+    {
+        "Market Name":"AVAX",
+        "Annualized Funding Rate":1070.2101629359
+    },
+    {
+        "Market Name":"BNB",
+        "Annualized Funding Rate":1588.0526860364
+    },
+    {
+        "Market Name":"BONK",
+        "Annualized Funding Rate":525.3353016
+    },
+    {
+        "Market Name":"DOGE",
+        "Annualized Funding Rate":879.2663792714
+    },
+    {
+        "Market Name":"ENA",
+        "Annualized Funding Rate":2544.7251274916
+    },
+    {
+        "Market Name":"FTM",
+        "Annualized Funding Rate":-2150.2214941854
+    },
+    {
+        "Market Name":"MATIC",
+        "Annualized Funding Rate":-514.2937084574
+    },
+    {
+        "Market Name":"OP",
+        "Annualized Funding Rate":4091.0079025203
+    },
+    {
+        "Market Name":"ORDI",
+        "Annualized Funding Rate":-499.7581323627
+    },
+    {
+        "Market Name":"PEPE",
+        "Annualized Funding Rate":273.0991652613
+    },
+    {
+        "Market Name":"RUNE",
+        "Annualized Funding Rate":4340.1851379748
+    },
+    {
+        "Market Name":"ARKM",
+        "Annualized Funding Rate":521.2965176844
+    },
+    {
+        "Market Name":"AXL",
+        "Annualized Funding Rate":-11167.5446242133
+    },
+    {
+        "Market Name":"BOME",
+        "Annualized Funding Rate":-478.1218091894
+    },
+    {
+        "Market Name":"ETHFI",
+        "Annualized Funding Rate":1380.0736826621
+    },
+    {
+        "Market Name":"GALA",
+        "Annualized Funding Rate":-467.0682295502
+    },
+    {
+        "Market Name":"GMX",
+        "Annualized Funding Rate":5289.5526487643
+    },
+    {
+        "Market Name":"INJ",
+        "Annualized Funding Rate":1160.8947324178
+    },
+    {
+        "Market Name":"LINK",
+        "Annualized Funding Rate":-757.8593229581
+    },
+    {
+        "Market Name":"PENDLE",
+        "Annualized Funding Rate":5349.9863986557
+    },
+    {
+        "Market Name":"STX",
+        "Annualized Funding Rate":2423.1938388348
+    },
+    {
+        "Market Name":"SUI",
+        "Annualized Funding Rate":1030.5733411681
+    },
+    {
+        "Market Name":"TAO",
+        "Annualized Funding Rate":-1381.5053995581
+    },
+    {
+        "Market Name":"TIA",
+        "Annualized Funding Rate":451.3314231101
+    },
+    {
+        "Market Name":"TON",
+        "Annualized Funding Rate":634.1678206032
+    },
+    {
+        "Market Name":"AAVE",
+        "Annualized Funding Rate":1620.6886685082
+    },
+    {
+        "Market Name":"ADA",
+        "Annualized Funding Rate":491.7382716588
+    },
+    {
+        "Market Name":"ALGO",
+        "Annualized Funding Rate":1855.6182685406
+    },
+    {
+        "Market Name":"APT",
+        "Annualized Funding Rate":4952.4559620668
+    },
+    {
+        "Market Name":"ATOM",
+        "Annualized Funding Rate":-1443.560226608
+    },
+    {
+        "Market Name":"AXS",
+        "Annualized Funding Rate":-939.3301026791
+    },
+    {
+        "Market Name":"BAL",
+        "Annualized Funding Rate":3545.5733352968
+    },
+    {
+        "Market Name":"BCH",
+        "Annualized Funding Rate":1013.3282940905
+    },
+    {
+        "Market Name":"BLUR",
+        "Annualized Funding Rate":-1434.1167708753
+    },
+    {
+        "Market Name":"COMP",
+        "Annualized Funding Rate":2196.865574227
+    },
+    {
+        "Market Name":"CRV",
+        "Annualized Funding Rate":1415.9859382534
+    },
+    {
+        "Market Name":"DOT",
+        "Annualized Funding Rate":2211.4983927842
+    },
+    {
+        "Market Name":"DYDX",
+        "Annualized Funding Rate":246.5423920891
+    },
+    {
+        "Market Name":"EOS",
+        "Annualized Funding Rate":9.5201766844
+    },
+    {
+        "Market Name":"ETC",
+        "Annualized Funding Rate":-124.8918633965
+    },
+    {
+        "Market Name":"ETHBTC",
+        "Annualized Funding Rate":28.0489369748
+    },
+    {
+        "Market Name":"FIL",
+        "Annualized Funding Rate":2394.0709649976
+    },
+    {
+        "Market Name":"FLOW",
+        "Annualized Funding Rate":-141.7972114858
+    },
+    {
+        "Market Name":"FXS",
+        "Annualized Funding Rate":3519.1529667241
+    },
+    {
+        "Market Name":"GRT",
+        "Annualized Funding Rate":1204.188591233
+    },
+    {
+        "Market Name":"ICP",
+        "Annualized Funding Rate":456.7380861741
+    },
+    {
+        "Market Name":"IMX",
+        "Annualized Funding Rate":89.8436685567
+    },
+    {
+        "Market Name":"JTO",
+        "Annualized Funding Rate":-2.5161626547
+    },
+    {
+        "Market Name":"JUP",
+        "Annualized Funding Rate":7111.4973082175
+    },
+    {
+        "Market Name":"LDO",
+        "Annualized Funding Rate":5582.7777007154
+    },
+    {
+        "Market Name":"LTC",
+        "Annualized Funding Rate":910.1348334334
+    },
+    {
+        "Market Name":"MEME",
+        "Annualized Funding Rate":-151.0664695561
+    },
+    {
+        "Market Name":"NEAR",
+        "Annualized Funding Rate":2193.8481755136
+    },
+    {
+        "Market Name":"PYTH",
+        "Annualized Funding Rate":3774.6828231922
+    },
+    {
+        "Market Name":"SEI",
+        "Annualized Funding Rate":3552.6298097156
+    },
+    {
+        "Market Name":"SHIB",
+        "Annualized Funding Rate":226.0995680332
+    },
+    {
+        "Market Name":"STRK",
+        "Annualized Funding Rate":2507.6491178235
+    },
+    {
+        "Market Name":"SUSHI",
+        "Annualized Funding Rate":-167.0907230755
+    },
+    {
+        "Market Name":"TRX",
+        "Annualized Funding Rate":-959.9304568596
+    },
+    {
+        "Market Name":"UNI",
+        "Annualized Funding Rate":3063.1015132664
+    },
+    {
+        "Market Name":"XLM",
+        "Annualized Funding Rate":6101.2232044027
+    },
+    {
+        "Market Name":"XRP",
+        "Annualized Funding Rate":3188.7068180728
+    },
+    {
+        "Market Name":"YFI",
+        "Annualized Funding Rate":13950.2400623065
+    },
+    {
+        "Market Name":"EIGEN",
+        "Annualized Funding Rate":-285.2848206786
+    },
+    {
+        "Market Name":"IO",
+        "Annualized Funding Rate":2488.651232439
+    },
+    {
+        "Market Name":"MEW",
+        "Annualized Funding Rate":-1576.7765662513
+    },
+    {
+        "Market Name":"MKR",
+        "Annualized Funding Rate":6443.1926354736
+    },
+    {
+        "Market Name":"NOT",
+        "Annualized Funding Rate":-378.7703936885
+    },
+    {
+        "Market Name":"PEOPLE",
+        "Annualized Funding Rate":-29.3067307022
+    },
+    {
+        "Market Name":"POL",
+        "Annualized Funding Rate":-2478.4394117967
+    },
+    {
+        "Market Name":"POPCAT",
+        "Annualized Funding Rate":-1202.7069922311
+    },
+    {
+        "Market Name":"RENDER",
+        "Annualized Funding Rate":-326.7200475543
+    },
+    {
+        "Market Name":"SATS",
+        "Annualized Funding Rate":7276.3012680693
+    },
+    {
+        "Market Name":"WLD",
+        "Annualized Funding Rate":-1264.0884880459
+    },
+    {
+        "Market Name":"ZRO",
+        "Annualized Funding Rate":-2472.8226496555
+    },
+    {
+        "Market Name":"GOAT",
+        "Annualized Funding Rate":1516.0942071508
+    },
+    {
+        "Market Name":"MOODENG",
+        "Annualized Funding Rate":113.8773190392
+    },
+    {
+        "Market Name":"SAFE",
+        "Annualized Funding Rate":-992.8542165262
+    },
+    {
+        "Market Name":"PNUT",
+        "Annualized Funding Rate":-126.9991457881
+    },
+    {
+        "Market Name":"CAT",
+        "Annualized Funding Rate":2832.5403928803
+    },
+    {
+        "Market Name":"DEGEN",
+        "Annualized Funding Rate":6186.1053991905
+    },
+    {
+        "Market Name":"SLERF",
+        "Annualized Funding Rate":397.0142015424
+    },
+    {
+        "Market Name":"AERO",
+        "Annualized Funding Rate":-2652.7836446194
+    },
+    {
+        "Market Name":"CHILLGUY",
+        "Annualized Funding Rate":-22.6010261516
+    },
+    {
+        "Market Name":"MORPHO",
+        "Annualized Funding Rate":-178.4648769624
+    },
+    {
+        "Market Name":"SOLETH",
+        "Annualized Funding Rate":479.7781784832
+    },
+    {
+        "Market Name":"PENGU",
+        "Annualized Funding Rate":833.1336303852
+    },
+    {
+        "Market Name":"VIRTUAL",
+        "Annualized Funding Rate":1009.3671635341
+    },
+    {
+        "Market Name":"FARTCOIN",
+        "Annualized Funding Rate":2577.4562397319
+    },
+    {
+        "Market Name":"KMNO",
+        "Annualized Funding Rate":23.7317905021
+    },
+    {
+        "Market Name":"TRUMP",
+        "Annualized Funding Rate":1877.592922033
+    },
+    {
+        "Market Name":"MELANIA",
+        "Annualized Funding Rate":-562.5020654549
+    },
+    {
+        "Market Name":"S",
+        "Annualized Funding Rate":469.817782949
+    },
+    {
+        "Market Name":"VELO",
+        "Annualized Funding Rate":-3881.5959579444
+    },
+    {
+        "Market Name":"VVV",
+        "Annualized Funding Rate":-1380.0444175425
+    },
+    {
+        "Market Name":"BERA",
+        "Annualized Funding Rate":955.9555990184
+    },
+    {
+        "Market Name":"IP",
+        "Annualized Funding Rate":-1612.4473650876
+    },
+    {
+        "Market Name":"KAITO",
+        "Annualized Funding Rate":-47583.5646805182
+    },
+    {
+        "Market Name":"OM",
+        "Annualized Funding Rate":-7477.026709742
+    },
+    {
+        "Market Name":"XMR",
+        "Annualized Funding Rate":3471.3994866506
+    }
+]

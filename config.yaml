@@ -1,0 +1,8 @@
+rpcs:
+  arbitrum: https://arbitrum-mainnet.infura.io/v3/a9989a4510d34af9971289e6906ed492
+  avalanche: https://endpoints.omniatech.io/v1/avax/mainnet/public
+chain_ids:
+  arbitrum: 42161
+  avalanche: 43114
+private_key: 4c158152e0e9527797e795591db27188209e5f8280e87fe7ec68d35003499b0c
+user_wallet_address: 0x023518157cb8C74eC4805BC8521e1985F3b7D382
