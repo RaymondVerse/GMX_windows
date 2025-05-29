@@ -1,6 +1,7 @@
 rpcs:
   arbitrum: https://arbitrum-mainnet.infura.io/v3/a9989a4510d34af9971289e6906ed492
   avalanche: https://endpoints.omniatech.io/v1/avax/mainnet/public
+
 chain_ids:
   arbitrum: 42161
   avalanche: 43114
